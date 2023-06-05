@@ -3,7 +3,7 @@ import Pyro4
 @Pyro4.expose
 class MeuServicoRemoto(object):
     def saudacao(self):
-        return "Olá, mundo!"
+        return "Olá,unisjdoaisjdouashduahsdouhsaduohsaudhasofuhfuihado!"
 
     def somar(self, a, b):
         return a + b
